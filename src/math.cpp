@@ -24,6 +24,7 @@ double divide(double a, double b) {
     return a / b;
 }
 
+#if 0
 int main() {
     double num1, num2;
     
@@ -37,3 +38,4 @@ int main() {
     
     return 0;
 }
+#endif
