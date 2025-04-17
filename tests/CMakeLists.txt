@@ -1,5 +1,6 @@
 # tests/CMakeLists.txt
 find_package(GTest REQUIRED)
+find_package(Threads REQUIRED)  # 添加这一行
 include_directories(${GTEST_INCLUDE_DIRS} ../include)
 
 add_executable(run_tests 
