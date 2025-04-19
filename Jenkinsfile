@@ -62,6 +62,7 @@ pipeline {
             }
         }
 
+
         // 阶段 6：部署到生产环境（手动触发）
         stage('Deploy to Production') {
             when {
